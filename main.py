@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException, UploadFile, File
 import uvicorn
 import json
-from app.agentic_AI import SmartQuotationAgent
+from app.smart_quotation import SmartQuotationAgent
 from pydantic import BaseModel
 from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer
